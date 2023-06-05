@@ -6,11 +6,11 @@ import userData from "../Data/user.json";
 import { Statistics } from "./t2/Statist";
 import statsData from "../Data/stat.json"
 
-// import { FriendList } from "./t3/FriendsList";
-// import friendsData from "../Data/friends.json";
+import { FriendList } from "./t3/FriendsList";
+import friendsData from "../Data/friends.json";
 
-// import { Transaction } from "./t4/Transaction";
-// import transactionsData from "../Data/transactions.json";
+import { Transaction } from "./t4/Transaction";
+import transactionsData from "../Data/transactions.json";
 
 export const App = () => {
   return (
@@ -24,9 +24,9 @@ export const App = () => {
         stats={userData.stats}
       />
       <Statistics title="Upload stats" stats={statsData} />
-      {/* 
       <FriendList friends={friendsData} />
-      <Transaction transactions={transactionsData} />  */}
+      
+      <Transaction transactions={transactionsData} /> 
     </div>
   );
 };
