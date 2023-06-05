@@ -3,7 +3,7 @@
 .container {
     position: fixed;
     z-index: 900;
-    background-color: white;
+    background-color: rgb(205, 227, 239);
     top: 0;
     width: 100%;
     text-align: center;
@@ -12,18 +12,18 @@
   .title {
     margin-top: 40px;
     text-align: center;
-    text-transform: uppercase;
-    color: rgb(46, 48, 61);
+    /* text-transform: uppercase; */
+    color: rgb(30, 30, 32);
   }
   
   .list {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 50vw;
+    flex-direction:row;
+    justify-content:center;
+    width:max-content;
     padding: 0;
     margin-left: auto;
-    margin-right: auto;
+    margin-right:auto;
     margin-top: 30px;
     margin-bottom: 40px;
     gap: 2vw;
@@ -33,7 +33,7 @@
     text-align: center;
     cursor: pointer;
     padding: 10px;
-    border: 1px solid black;
+    border: 2px solid rgb(95, 93, 93);
     border-radius: 10px;
     box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
     transition: all linear 250ms;

@@ -1,16 +1,16 @@
 import { PageNav } from "./PageNav/PageNav";
 
-import { Profile } from "./task1/Profile";
-import userData from "../data/user.json";
+import { Profile } from "./t1/Profile";
+import userData from "../Data/user.json";
 
-import { Statistics } from "./task2/Statistics";
-import statsData from "../data/data.json"
+import { Statistics } from "./t2/Statist";
+import statsData from "../Data/stat.json"
 
-import { FriendList } from "./task3/FriendList";
-import friendsData from "../data/friends.json";
+// import { FriendList } from "./t3/FriendsList";
+// import friendsData from "../Data/friends.json";
 
-import { TransactionHistory } from "./task4/TransactionHistory";
-import transactionsData from "../data/transactions.json";
+// import { Transaction } from "./t4/Transaction";
+// import transactionsData from "../Data/transactions.json";
 
 export const App = () => {
   return (
@@ -24,8 +24,9 @@ export const App = () => {
         stats={userData.stats}
       />
       <Statistics title="Upload stats" stats={statsData} />
+      {/* 
       <FriendList friends={friendsData} />
-      <TransactionHistory transactions={transactionsData} />
+      <Transaction transactions={transactionsData} />  */}
     </div>
   );
 };

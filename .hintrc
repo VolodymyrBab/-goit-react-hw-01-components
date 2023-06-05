@@ -8,7 +8,8 @@
       {
         "ignore": [
           "scroll-behavior",
-          "scroll-margin-top"
+          "scroll-margin-top",
+          "overflow: clip"
         ]
       }
     ]
